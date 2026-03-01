@@ -23,8 +23,8 @@ const AACGrid = ({ onButtonPress }: AACGridProps) => {
               className={`aac-grid-btn ${colors.bg} ${colors.border} border`}
               aria-label={btn.label}
             >
-              <span className="text-2xl leading-none">{btn.emoji}</span>
-              <span className={`text-xs font-semibold mt-1 ${colors.text} truncate max-w-full px-1`}>
+              <span className="text-3xl leading-none">{btn.emoji}</span>
+              <span className={`text-sm font-semibold mt-1 ${colors.text} truncate max-w-full px-1`}>
                 {btn.label}
               </span>
             </button>
